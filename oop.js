@@ -12,8 +12,8 @@ console.log(this.balance);
     withdrawlMoney (amount) {
  amount = Number(amount);
 if (this.balance >= amount ) {
-
-    console.log(this.balance - amount);
+ this.balance =  this.balance - amount;
+    console.log(this.balance);
 }
 else {
     console.log('You Balance is at zero!');
