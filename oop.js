@@ -21,7 +21,7 @@ else {
     }
 
 displayBalance () {
-    return this.balance;
+    console.log(this.balance);
 }
 
 }
